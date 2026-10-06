@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Body Scent | น้ำหอมฉีดตัว</title>
+  <meta name="description" content="Body Scent น้ำหอมฉีดตัวและโรลออน 4 อารมณ์ Fresh Sweet Confident Romance">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hero { min-height: calc(100vh - 82px); min-height: calc(100svh - 82px); }
+    .hero h1 { font-size: clamp(1.8rem, 4.2vw, 3rem); max-width: 24ch; margin-bottom: var(--space-4); }
+    .mood-card { color: inherit; }
+    .mood-card .mood-line { margin-top: 0; margin-bottom: var(--space-2); }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="brand">Body Scent</a>
+    <nav class="site-nav">
+      <a href="index.html">หน้าแรก</a>
+      <a href="product.html">สินค้า</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>เปลี่ยนทุกอารมณ์ให้เป็นเสน่ห์เฉพาะตัว เผยความมั่นใจในสไตล์ที่เป็นคุณได้ทุกวัน</h1>
+      <a href="product.html" class="btn">ดูสินค้าทั้งหมด</a>
+    </section>
+
+    <section class="section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>เลือกกลิ่นตามอารมณ์ของคุณ</h2>
+          <span class="rule"></span>
+        </div>
+
+        <div class="grid grid-4">
+          <a href="product.html?mood=fresh" class="card mood-card mood-fresh">
+            <span class="mood-line"></span>
+            <h3>Fresh</h3>
+            <p>เติมความโปร่ง สะอาด และเบาสบาย เหมือนได้รีเฟรชตัวเองใหม่ในทุกเช้า พร้อมปลุกพลังความตื่นตัวให้คุณสดใสได้ตลอดวัน</p>
+          </a>
+
+          <a href="product.html?mood=sweet" class="card mood-card mood-sweet">
+            <span class="mood-line"></span>
+            <h3>Sweet</h3>
+            <p>สัมผัสความอ่อนโยน น่ารัก และอบอุ่นหัวใจ ด้วยกลิ่นหอมหวานแผ่วเบาที่ชวนให้คนใกล้ชิดรู้สึกสบายใจทุกครั้งที่อยู่ใกล้</p>
+          </a>
+
+          <a href="product.html?mood=confident" class="card mood-card mood-confident">
+            <span class="mood-line"></span>
+            <h3>Confident</h3>
+            <p>กลิ่นหอมนิ่ง สะอาด และดูดีอย่างมีรสนิยม เสริมบุคลิกให้ดูน่าเชื่อถือ พร้อมเปิดรับทุกโอกาสและเจอผู้คนได้อย่างมั่นใจ</p>
+          </a>
+
+          <a href="product.html?mood=romance" class="card mood-card mood-romance">
+            <span class="mood-line"></span>
+            <h3>Romance</h3>
+            <p>ความหอมอบอุ่น เสน่ห์ลึกล้ำชวนค้นหา ดึงดูดความสนใจให้ตราตรึงและน่าหลงใหลจนยากจะลืมเลือน</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p style="margin-inline:auto">&copy; Body Scent</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
